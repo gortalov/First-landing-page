@@ -1,0 +1,115 @@
+/* Стили для слайдера */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+ /* body {
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background: grey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  */
+.container-main {
+    margin: 0;
+    
+    background:#332954 url(../image/backgorund.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+  
+.slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+  
+.slide h3 {
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+  
+.slide.active {
+    flex: 10;
+    background-size: auto;
+}
+  
+.slide.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+/* Стили для шапки */
+.header{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+/* .header-wrap{
+    background:#332954;
+    background-blend-mode: multiply;
+    background-size: cover;
+} */
+
+.header-top{
+    overflow: hidden;
+    padding-top: 15px;
+    margin-bottom: 70px
+
+}
+.logo{
+float: left;
+
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-top li{
+    margin-left: 25px;
+    }
+.menu{
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 2px;
+}
+.menu a:hover{
+        background: #00e0d0;
+        color: #fff;
+        opacity: 1;
+} 
+
+.content {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
