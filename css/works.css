@@ -5,20 +5,8 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-  
- /* body {
-    font-family: 'Muli', sans-serif;
-    overflow: hidden;
-    margin: 0;
-    background: grey;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}  */
 .container-main {
     margin: 0;
-    
     background:#332954 url(../image/backgorund.png);
     background-blend-mode: multiply;
     background-size: cover;

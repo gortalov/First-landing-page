@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container-main {
+    margin: 0;
+    background:#332954 url(../image/backgorund.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.header{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.header-top{
+    overflow: hidden;
+    padding-top: 15px;
+    margin-bottom: 70px
+}
+.logo{
+float: left;
+
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-top li{
+    margin-left: 25px;
+    }
+.menu{
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 2px;
+}
+.menu a:hover{
+        background: #00e0d0;
+        color: #fff;
+        opacity: 1;
+} 
+.content {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+ /* Стили для Drag and Drop */
+
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #70D1E3;
+  padding: 0.8rem 1rem;
+  color: black;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 3px solid #eee;
+}
+
+.hide {
+  display: none;
+}
+.hovered {
+  border-top: 2px solid #84fab0;
+}
